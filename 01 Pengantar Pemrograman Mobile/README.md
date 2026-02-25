@@ -1,5 +1,6 @@
 # Laporan Praktikum #01 - Pengantar Pemrograman Mobile
 
+| Atribut | Keterangan        |
 | ------- | -----             |
 | Nama    | Desy Dwi Puspita  |
 | NIM     | 244107060145      |
