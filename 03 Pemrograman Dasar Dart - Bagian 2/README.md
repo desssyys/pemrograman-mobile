@@ -100,6 +100,11 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 
 ![Code error](img/Prak2_Langkah2error.png)
 
+Program mengalami error karena variabel counter belum dideklarasikan dan belum diberi nilai awal. Program tidak mengetahui nilai awal counter, sehingga perulangan while tidak bisa dijalankan. Agar tidak terjadi error, variabel counter harus dideklarasikan dan diinisialisasi terlebih dahulu sebelum digunakan dalam while
+
+**Perbaikan :**
+
+![Code fix](img/Prak2_Langkah2fix.png)
 
 #### Langkah 3:
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
@@ -110,6 +115,10 @@ do {
   counter++;
 } while (counter < 77);
 ```
+
+**Hasil penambahan kode**
+
+![Code](img/Prak2_Langkah3.png)
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
 
