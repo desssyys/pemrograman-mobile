@@ -34,9 +34,12 @@ if (test == "test2") print("Test2 again");
 #### Langkah 2:
 Silahkan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
 
-![Code Error](img/praktikum1.png)
+![Code Error](img/Praktikum1error.png)
 
 Ketika kode dijalankan program tidak menampilkan output, melainkan muncul error. Terjadi karena penulisan `Else If` dan `Else` menggunakan huruf besar. Dalam bahasa Dart, penulisan bersifat case-sensitive, sehingga harus ditulis `else if` dan `else` dengan huruf kecil.
+
+: 
+![Code fix](img/Praktikum1fix.png)
 
 #### Langkah 3:
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
