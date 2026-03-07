@@ -50,7 +50,7 @@ if (test) {
 ```
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan if/else.
-**Jawaban**
+**Jawaban:**
 
 ![Code Error](img/Prak1_Langkah3error.png)
 
@@ -76,7 +76,7 @@ void main() {
   }
 }
 ```
-**Hasil kode yang sudah diperbaiki**
+**Hasil kode yang sudah diperbaiki:**
 
 ![Code fix](img/Prak1_Langkah3fix.png)
 
@@ -102,7 +102,7 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 
 Program mengalami error karena variabel counter belum dideklarasikan dan belum diberi nilai awal. Program tidak mengetahui nilai awal counter, sehingga perulangan while tidak bisa dijalankan. Agar tidak terjadi error, variabel counter harus dideklarasikan dan diinisialisasi terlebih dahulu sebelum digunakan dalam while
 
-**Perbaikan :**
+**Perbaikan:**
 
 ![Code fix](img/Prak2_Langkah2fix.png)
 
@@ -116,11 +116,66 @@ do {
 } while (counter < 77);
 ```
 
-**Hasil penambahan kode**
+**Hasil penambahan kode:**
 
 ![Code](img/Prak2_Langkah3.png)
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
+Program tidak mengalami error. Perulangan while mencetak angka dari 0 sampai 32. Setelah itu, perulangan do-while mencetak angka dari 33 sampai 76.
 
 
+#### Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 
+#### Langkah 1:
+Ketik atau salin kode program berikut ke dalam fungsi `main()`.
+
+``` dart 
+for (Index = 10; index < 27; index) {
+  print(Index);
+}
+```
+
+#### Langkah 2:
+Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
+![Code error](img/Prak3_Langkah1error.png)
+
+Terjadi error karena beberapa kesalahan pada kode. Penulisan `Index` tidak konsisten dengan `index` karena Dart membedakan huruf besar dan kecil, variabel `index` juga belum dideklarasikan tipe datanya, dan pada bagian perulangan `for` tidak terdapat inkremen yang benar, seharusnya menggunakan `index++` agar nilai `index` bertambah setiap perulangan.
+
+**Perbaikan:**
+
+``` dart
+void main() {
+  for (int index = 10; index < 27; index++) {
+    print(index);
+  }
+}
+```
+
+![Code fix](img/Prak3_Langkah1fix.png)
+
+#### Langkah 3:
+Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
+
+``` dart
+If (Index == 21) break;
+Else If (index > 1 || index < 7) continue;
+print(index);
+```
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
+
+![Code error](img/Prak3_Langkah3error.png)
+
+Terjadi error karena kesalahan sintaks pada `If`, `Else If`, dan `Index`.
+
+**Perbaikan:**
+
+![Code fix](img/Prak3_Langkah3fix.png)
+
+#### Tugas Praktikum
+
+1. Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!
+2. Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+
+1[Code TugasPraktikum](img/TugasPraktikum.png)
