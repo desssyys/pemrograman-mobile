@@ -45,6 +45,7 @@ if (test) {
 ```
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan if/else.
+
 **Jawaban:**
 
 ![Code Error](img/Prak1_Langkah3error.png)
