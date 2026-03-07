@@ -178,4 +178,4 @@ Terjadi error karena kesalahan sintaks pada `If`, `Else If`, dan `Index`.
 1. Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!
 2. Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
 
-1[Code TugasPraktikum](img/TugasPraktikum.png)
+![Code TugasPraktikum](img/TugasPraktikum.png)
