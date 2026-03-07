@@ -8,14 +8,9 @@
 
 ---
 
-## Tugas Praktikum
+## Praktikum 1: Menerapkan Control Flows ("if/else") - langkah 1 dan 2
 
-### Soal 1
-Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!
-
-#### Praktikum 1: Menerapkan Control Flows ("if/else") - langkah 1 dan 2
-
-#### Langkah 1:
+### Langkah 1:
 Ketik atau salin kode program berikut ke dalam fungsi `main()`.
 Code: 
 ```dart
@@ -31,7 +26,7 @@ if (test == "test1") {
 if (test == "test2") print("Test2 again"); 
 ```
 
-#### Langkah 2:
+### Langkah 2:
 Silahkan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
 
 ![Code Error](img/Prak1_Langkah2error.png)
@@ -40,7 +35,7 @@ Ketika kode dijalankan program tidak menampilkan output, melainkan muncul error.
 
 ![Code fix](img/Prak1_Langkah2fix.png)
 
-#### Langkah 3:
+### Langkah 3:
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 ``` dart
 String test = "true";
@@ -81,11 +76,11 @@ void main() {
 ![Code fix](img/Prak1_Langkah3fix.png)
 
 
-#### Praktikum 2: Menerapkan Perulangan "while" dan "do-while"
+## Praktikum 2: Menerapkan Perulangan "while" dan "do-while"
 
 Selesaikan langkah-langkah praktikum berikut ini menggunakan DartPad di browser Anda.
 
-#### Langkah 1:
+### Langkah 1:
 Ketik atau salin kode program berikut ke dalam fungsi `main()`.
 
 ```dart
@@ -95,7 +90,7 @@ Ketik atau salin kode program berikut ke dalam fungsi `main()`.
   }
 ```
 
-#### Langkah 2:
+### Langkah 2:
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
 ![Code error](img/Prak2_Langkah2error.png)
@@ -106,7 +101,7 @@ Program mengalami error karena variabel counter belum dideklarasikan dan belum d
 
 ![Code fix](img/Prak2_Langkah2fix.png)
 
-#### Langkah 3:
+### Langkah 3:
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
 ``` dart
@@ -124,9 +119,9 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 Program tidak mengalami error. Perulangan while mencetak angka dari 0 sampai 32. Setelah itu, perulangan do-while mencetak angka dari 33 sampai 76.
 
 
-#### Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
+## Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 
-#### Langkah 1:
+### Langkah 1:
 Ketik atau salin kode program berikut ke dalam fungsi `main()`.
 
 ``` dart 
@@ -135,7 +130,7 @@ for (Index = 10; index < 27; index) {
 }
 ```
 
-#### Langkah 2:
+### Langkah 2:
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
 ![Code error](img/Prak3_Langkah1error.png)
@@ -154,7 +149,7 @@ void main() {
 
 ![Code fix](img/Prak3_Langkah1fix.png)
 
-#### Langkah 3:
+### Langkah 3:
 Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
 
 ``` dart
@@ -173,7 +168,7 @@ Terjadi error karena kesalahan sintaks pada `If`, `Else If`, dan `Index`.
 
 ![Code fix](img/Prak3_Langkah3fix.png)
 
-#### Tugas Praktikum
+## Tugas Praktikum
 
 1. Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!
 2. Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
