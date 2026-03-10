@@ -377,9 +377,8 @@ Function adalah sekumpulan kode yang dibuat untuk menjalankan suatu tugas terten
 
 ### 3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
 
-## 2. Jenis-jenis Parameter pada Functions
-
-### 1. Required Parameter
+Jenis-jenis Parameter pada Functions
+#### 1. Required Parameter
 
 Parameter yang **harus diisi** saat function dipanggil.
 
@@ -393,7 +392,7 @@ void main() {
 }
 ```
 
-### 2. Optional Positional Parameter
+#### 2. Optional Positional Parameter
 
 Parameter tambahan yang **tidak wajib diisi** dan ditulis menggunakan tanda `[]`.
 
@@ -408,7 +407,7 @@ void main() {
 }
 ```
 
-### 3. Optional Named Parameter
+#### 3. Optional Named Parameter
 
 Parameter yang ditulis dengan **nama parameter** menggunakan tanda `{}`.
 
@@ -422,7 +421,7 @@ void main() {
 }
 ```
 
-### 4. Default Parameter Value
+#### 4. Default Parameter Value
 
 Parameter yang memiliki **nilai default** jika tidak diisi saat pemanggilan function.
 
