@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:layout_flutter/pages/home_page.dart';
 
 void main() {
   runApp(MaterialApp(
     initialRoute: '/',
     routes: {
-      '/': (context) => const MyApp(),
-      '/item': (context) => const ItemPage(),
+      '/': (context) => HomePage(),
+      '/item': (context) => ItemPage(),
     },
   ));
 }
