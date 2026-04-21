@@ -13,7 +13,9 @@
 Buatlah sebuah project flutter baru dengan nama layout_flutter. Atau sesuaikan style laporan praktikum yang Anda buat.
 
 ![Gambar](assets/prakt1_langkah1_1.png)
+
 ![Gambar](assets/prakt1_langkah1_2.png)
+
 ![Gambar](assets/prakt1_langkah1_3.png)
 
 ### Langkah 2: Buka file lib/main.dart
