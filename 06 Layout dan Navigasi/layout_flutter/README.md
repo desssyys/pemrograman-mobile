@@ -225,7 +225,7 @@ Tambahkan widget variabel textSection ke dalam body seperti berikut:
 
 ![Gambar5](assets/gambar5.png)
 
-[Gambar](assets/prakt3.png)
+![Gambar](assets/prakt3.png)
 
 ---
 
