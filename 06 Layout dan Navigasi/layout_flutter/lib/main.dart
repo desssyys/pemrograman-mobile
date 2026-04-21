@@ -3,12 +3,11 @@ import 'package:layout_flutter/pages/home_page.dart';
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/',
-    routes: {
-      '/': (context) => HomePage(),
-      '/item': (context) => ItemPage(),
-    },
-  ));
+  routes: {
+    '/': (context) => HomePage(),
+    '/Item': (context) => ItemPage(),
+  },
+));
 }
 
 class MyApp extends StatelessWidget {
