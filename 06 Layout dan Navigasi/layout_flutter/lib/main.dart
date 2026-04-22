@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:layout_flutter/pages/home_page.dart';
+import 'package:layout_flutter/pages/item_page.dart';
 
 void main() {
   runApp(MaterialApp(
   routes: {
     '/': (context) => HomePage(),
-    '/Item': (context) => ItemPage(),
+    '/item': (context) => ItemPage(),
   },
 ));
 }
@@ -105,19 +106,6 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ],
-    );
-  }
-}
-
-class ItemPage extends StatelessWidget {
-  const ItemPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Item Page'),
-      ),
     );
   }
 }
