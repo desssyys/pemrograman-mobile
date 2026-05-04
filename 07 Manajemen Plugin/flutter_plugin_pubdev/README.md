@@ -96,15 +96,24 @@ Container(
 # 8. Tugas Praktikum
 
 1. Selesaikan Praktikum tersebut, lalu dokumentasikan dan push ke repository Anda berupa screenshot hasil pekerjaan beserta penjelasannya di file `README.md` !
+
 2. Jelaskan maksud dari langkah 2 pada praktikum tersebut!
+
 Langkah 2 bertujuan untuk menambahkan plugin auto_size_text ke dalam project Flutter dengan perintah flutter pub add auto_size_text. Plugin ini digunakan agar kita bisa memakai widget AutoSizeText, yaitu widget yang dapat menyesuaikan ukuran teks secara otomatis supaya tidak keluar dari batas container
+
 3. Jelaskan maksud dari langkah 5 pada praktikum tersebut!
+
 Langkah 5 bertujuan untuk menambahkan variabel text dan constructor pada widget agar dapat menerima input teks dari luar. Dengan adanya required this.text, nilai teks wajib diberikan saat widget dipanggil, sehingga widget menjadi lebih dinamis dan bisa digunakan kembali dengan isi teks yang berbeda-beda.
+
 4. Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
+
 Langkah 6 terdapat dua widget yaitu RedTextWidget (menggunakan AutoSizeText) dan Text biasa. AutoSizeText dapat menyesuaikan ukuran teks agar tidak overflow, sedangkan Text biasa memiliki ukuran tetap sehingga bisa overflow jika ruang terbatas.
+
 5. Jelaskan maksud dari tiap parameter yang ada di dalam plugin `auto_size_text` berdasarkan tautan pada dokumentasi [ini](https://pub.dev/documentation/auto_size_text/latest/) !
+
 AutoSizeText memiliki parameter khusus untuk mengatur penyesuaian ukuran teks, sekaligus tetap menggunakan parameter dasar dari widget Text.
 Parameter seperti minFontSize dan maxFontSize berfungsi membatasi ukuran minimum dan maksimum teks. stepGranularity mengatur besar langkah penurunan ukuran font, sedangkan presetFontSizes digunakan jika hanya ingin memakai ukuran tertentu. group dipakai untuk menyamakan ukuran font beberapa AutoSizeText, dan overflowReplacement menampilkan widget pengganti jika teks tetap tidak muat.
 parameter standar seperti style menentukan tampilan awal teks, maxLines membatasi jumlah baris, overflow mengatur tampilan saat teks tidak muat, dan wrapWords, textAlign, serta textDirection berfungsi sama seperti pada widget Text biasa.
+
 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub kepada dosen!
 
