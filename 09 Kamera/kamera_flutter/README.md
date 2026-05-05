@@ -273,6 +273,8 @@ Silakan deploy pada device atau smartphone Anda dan perhatikan hasilnya!
 
 ## Praktikum 2: Membuat photo filter carousel
 
+[LINK REPOSITORY KODE PRAKTIKUM 1](https://github.com/desssyys/pemrograman-mobile/tree/main/09%20Kamera/photo_filter_carousel)
+
 ### Langkah 1: Buat project baru
 
 Buatlah project flutter baru di pertemuan 09 dengan nama **photo_filter_carousel**
@@ -656,10 +658,31 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show ViewportOffset;
 ```
 
+
 ## Tugas Praktikum
 
-1. Selesaikan Praktikum 1 dan 2, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file `README.md`! Jika terdapat error atau kode yang tidak dapat berjalan, silakan Anda perbaiki sesuai tujuan aplikasi dibuat!
-2. Gabungkan hasil praktikum 1 dengan hasil praktikum 2 sehingga setelah melakukan pengambilan foto, dapat dibuat filter carouselnya!
-3. Jelaskan maksud `void async` pada praktikum 1?
-4. Jelaskan fungsi dari anotasi `@immutable` dan `@override` ?
-5. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
+#### 1. Selesaikan Praktikum 1 dan 2, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file `README.md`! Jika terdapat error atau kode yang tidak dapat berjalan, silakan Anda perbaiki sesuai tujuan aplikasi dibuat!
+
+#### 2. Gabungkan hasil praktikum 1 dengan hasil praktikum 2 sehingga setelah melakukan pengambilan foto, dapat dibuat filter carouselnya!
+
+- Copy file takepicture_screen.dart yang ada pada praktikum 1 ke **lib/widget/takepicture_screen.dart**
+
+![gambar](img/tugasno2.png)
+
+**Hasil ketika di run:** 
+
+![gambar](img/hasilrun.png)
+
+![video](img/hasil.mp4)
+
+#### 3. Jelaskan maksud `void async` pada praktikum 1?
+
+async berfungsi untuk menangani proses yang berjalan secara asinkron, seperti saat aplikasi mengakses perangkat kamera. Dengan adanya async, kita bisa menggunakan await untuk menunggu hasil dari pemanggilan availableCameras() hingga selesai tanpa membuat aplikasi berhenti, sementara void menunjukkan bahwa fungsi tersebut hanya menjalankan proses inisialisasi tanpa mengembalikan nilai apa pun.
+
+#### 4. Jelaskan fungsi dari anotasi `@immutable` dan `@override` ?
+
+- Anotasi @immutable digunakan untuk menandai bahwa sebuah class bersifat tidak dapat diubah setelah dibuat, sehingga semua properti di dalamnya harus final dan tidak boleh berubah nilainya
+
+- Anotasi @override digunakan untuk menunjukkan bahwa sebuah method menggantikan atau menimpa method yang sudah ada di class induknya, sehingga memudahkan pembacaan kode dan membantu mendeteksi kesalahan jika terjadi ketidaksesuaian dengan method aslinya.
+
+#### 5. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
