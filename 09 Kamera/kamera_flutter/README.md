@@ -270,6 +270,7 @@ Silakan deploy pada device atau smartphone Anda dan perhatikan hasilnya!
 
 ![Gambar](img/p1_langkah9_2.jpeg)
 
+
 ## Praktikum 2: Membuat photo filter carousel
 
 ### Langkah 1: Buat project baru
