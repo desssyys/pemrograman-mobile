@@ -7,6 +7,8 @@
 ---
 ## Praktikum 1: Mengambil Foto dengan Kamera di Flutter
 
+[LINK REPOSITORY KODE PRAKTIKUM 1](https://github.com/desssyys/pemrograman-mobile/tree/main/09%20Kamera/kamera_flutter)
+
 ### Langkah 1: Buat Project Baru
 
 Buatlah sebuah project flutter baru dengan nama **kamera_flutter**, lalu sesuaikan style laporan praktikum yang Anda buat.
@@ -273,7 +275,7 @@ Silakan deploy pada device atau smartphone Anda dan perhatikan hasilnya!
 
 ## Praktikum 2: Membuat photo filter carousel
 
-[LINK REPOSITORY KODE PRAKTIKUM 1](https://github.com/desssyys/pemrograman-mobile/tree/main/09%20Kamera/photo_filter_carousel)
+[LINK REPOSITORY KODE PRAKTIKUM 2](https://github.com/desssyys/pemrograman-mobile/tree/main/09%20Kamera/photo_filter_carousel)
 
 ### Langkah 1: Buat project baru
 
